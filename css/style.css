@@ -35,14 +35,16 @@ h1 {
   font-size: 40px;
   margin-bottom: 5px;
 }
-
-h2 {
+section ul li {
   font-family: sans-serif;
   font-weight: bold;
   color: darkgray;
   text-transform: uppercase;
+  float: left;
 }
-
+section ul li:last-child {
+  float: right;
+}
 h3 {
   font-family: 'Yellowtail', cursive;
   font-size: 40px;
@@ -56,14 +58,18 @@ h4 {
   text-transform: uppercase;
   color: darkgray;
 }
-
+section img:nth-child(3) {
+  margin-top: 30px;
+  width: 100%;
+}
 article p {
   font-family: 'Quattrocento', serif;
+  margin-top: 30px;
 }
 
 button {
   font-family: 'News Cycle', sans-serif;
 }
-ul li {
+div ul li {
   font-family: 'Pangolin', cursive;
 }
