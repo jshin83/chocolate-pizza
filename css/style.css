@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|News+Cycle|Pangolin|Quattrocento|Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
 
 #notes {
   clear: both;
@@ -121,6 +122,7 @@ button {
 #author {
   display: inline-block;
   position: relative;
+  font-family: 'Roboto Slab', serif;
 }
 
 #notes {
