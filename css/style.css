@@ -1,50 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|News+Cycle|Pangolin|Quattrocento|Yellowtail');
 
-body {
-  width: 960px;
-  margin: 0px auto;
+#notes {
+  clear: both;
+  background-image: url("../images/list-bg.png")
 }
-header {
-  margin-top: 35px;
-  margin-bottom: 50px;
-}
-nav {
-  margin-bottom: 25px;
-}
-nav div {
-  display: inline-block;
-}
-nav ul {
-  float: right;
-  margin-top: 12px;
-}
-nav ul li {
-  float: left;
-  margin: 0 1px;
-}
-nav ul li:nth-child(7) {
-  margin-left: 8px;
-}
+
 .custom-hr {
   background-image: url("../images/hr-img.png"); 
   background-repeat: space; 
   height: 16px;
 }
+
+body {
+  width: 960px;
+  margin: 0px auto;
+}
+
+article {
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+header {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+nav {
+  margin-bottom: 25px;
+}
+
+nav div {
+  display: inline-block;
+}
+
+nav ul {
+  float: right;
+  margin-top: 12px;
+}
+
+nav ul li {
+  float: left;
+  margin: 0 1px;
+}
+
+nav ul li:nth-child(7) {
+  margin-left: 8px;
+}
+
 h1 {
   font-family: 'Coda Caption', sans-serif;
   font-size: 40px;
   margin-bottom: 5px;
 }
-section ul li {
+
+section #title-left{
   font-family: sans-serif;
   font-weight: bold;
   color: darkgray;
   text-transform: uppercase;
   float: left;
 }
-section ul li:last-child {
+
+section #title-right {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: darkgray;
+  text-transform: uppercase;
   float: right;
 }
+
 h3 {
   font-family: 'Yellowtail', cursive;
   font-size: 40px;
@@ -58,18 +83,46 @@ h4 {
   text-transform: uppercase;
   color: darkgray;
 }
+
 section img:nth-child(3) {
   margin-top: 30px;
   width: 100%;
 }
+
 article p {
   font-family: 'Quattrocento', serif;
   margin-top: 30px;
+  text-indent: 30px;
+  line-height: 24px;
+  font-size: 19px;
+  font-weight: 800;
+  color: rgb(108, 108, 108);
+}
+
+article div {
+  background-image: url("../images/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 button {
   font-family: 'News Cycle', sans-serif;
+  float: right;
+  padding: 10px 35px;
+  background-color: rgb(202, 78, 20);
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
 }
-div ul li {
+
+#author {
+  display: inline-block;
+  position: relative;
+}
+
+#notes {
   font-family: 'Pangolin', cursive;
 }
